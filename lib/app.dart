@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "Google Map",
-      debugShowCheckedModeBanner: fals,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
